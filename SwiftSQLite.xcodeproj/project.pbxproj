@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4DACF61999D8EC001A4CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DACF51999D8EC001A4CBE /* AppDelegate.swift */; };
+		CC4DACF81999D8EC001A4CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DACF71999D8EC001A4CBE /* ViewController.swift */; };
+		CC4DACFB1999D8EC001A4CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4DACF91999D8EC001A4CBE /* Main.storyboard */; };
+		CC4DACFD1999D8EC001A4CBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4DACFC1999D8EC001A4CBE /* Images.xcassets */; };
+		CC4DAD091999D8EC001A4CBE /* SwiftSQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD081999D8EC001A4CBE /* SwiftSQLiteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4DAD031999D8EC001A4CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4DACE81999D8EC001A4CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4DACEF1999D8EC001A4CBE;
+			remoteInfo = SwiftSQLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4DACF01999D8EC001A4CBE /* SwiftSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4DACF41999D8EC001A4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4DACF51999D8EC001A4CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4DACF71999D8EC001A4CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4DACFA1999D8EC001A4CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4DACFC1999D8EC001A4CBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC4DAD021999D8EC001A4CBE /* SwiftSQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4DAD071999D8EC001A4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4DAD081999D8EC001A4CBE /* SwiftSQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSQLiteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4DACED1999D8EC001A4CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4DACFF1999D8EC001A4CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4DACE71999D8EC001A4CBE = {
+			isa = PBXGroup;
+			children = (
+				CC4DACF21999D8EC001A4CBE /* SwiftSQLite */,
+				CC4DAD051999D8EC001A4CBE /* SwiftSQLiteTests */,
+				CC4DACF11999D8EC001A4CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4DACF11999D8EC001A4CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DACF01999D8EC001A4CBE /* SwiftSQLite.app */,
+				CC4DAD021999D8EC001A4CBE /* SwiftSQLiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4DACF21999D8EC001A4CBE /* SwiftSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DACF51999D8EC001A4CBE /* AppDelegate.swift */,
+				CC4DACF71999D8EC001A4CBE /* ViewController.swift */,
+				CC4DACF91999D8EC001A4CBE /* Main.storyboard */,
+				CC4DACFC1999D8EC001A4CBE /* Images.xcassets */,
+				CC4DACF31999D8EC001A4CBE /* Supporting Files */,
+			);
+			path = SwiftSQLite;
+			sourceTree = "<group>";
+		};
+		CC4DACF31999D8EC001A4CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DACF41999D8EC001A4CBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4DAD051999D8EC001A4CBE /* SwiftSQLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DAD081999D8EC001A4CBE /* SwiftSQLiteTests.swift */,
+				CC4DAD061999D8EC001A4CBE /* Supporting Files */,
+			);
+			path = SwiftSQLiteTests;
+			sourceTree = "<group>";
+		};
+		CC4DAD061999D8EC001A4CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DAD071999D8EC001A4CBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4DACEF1999D8EC001A4CBE /* SwiftSQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4DAD0C1999D8EC001A4CBE /* Build configuration list for PBXNativeTarget "SwiftSQLite" */;
+			buildPhases = (
+				CC4DACEC1999D8EC001A4CBE /* Sources */,
+				CC4DACED1999D8EC001A4CBE /* Frameworks */,
+				CC4DACEE1999D8EC001A4CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSQLite;
+			productName = SwiftSQLite;
+			productReference = CC4DACF01999D8EC001A4CBE /* SwiftSQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4DAD011999D8EC001A4CBE /* SwiftSQLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4DAD0F1999D8EC001A4CBE /* Build configuration list for PBXNativeTarget "SwiftSQLiteTests" */;
+			buildPhases = (
+				CC4DACFE1999D8EC001A4CBE /* Sources */,
+				CC4DACFF1999D8EC001A4CBE /* Frameworks */,
+				CC4DAD001999D8EC001A4CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4DAD041999D8EC001A4CBE /* PBXTargetDependency */,
+			);
+			name = SwiftSQLiteTests;
+			productName = SwiftSQLiteTests;
+			productReference = CC4DAD021999D8EC001A4CBE /* SwiftSQLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4DACE81999D8EC001A4CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mushikago;
+				TargetAttributes = {
+					CC4DACEF1999D8EC001A4CBE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CC4DAD011999D8EC001A4CBE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CC4DACEF1999D8EC001A4CBE;
+					};
+				};
+			};
+			buildConfigurationList = CC4DACEB1999D8EC001A4CBE /* Build configuration list for PBXProject "SwiftSQLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4DACE71999D8EC001A4CBE;
+			productRefGroup = CC4DACF11999D8EC001A4CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4DACEF1999D8EC001A4CBE /* SwiftSQLite */,
+				CC4DAD011999D8EC001A4CBE /* SwiftSQLiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4DACEE1999D8EC001A4CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4DACFB1999D8EC001A4CBE /* Main.storyboard in Resources */,
+				CC4DACFD1999D8EC001A4CBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4DAD001999D8EC001A4CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4DACEC1999D8EC001A4CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4DACF81999D8EC001A4CBE /* ViewController.swift in Sources */,
+				CC4DACF61999D8EC001A4CBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4DACFE1999D8EC001A4CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4DAD091999D8EC001A4CBE /* SwiftSQLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4DAD041999D8EC001A4CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4DACEF1999D8EC001A4CBE /* SwiftSQLite */;
+			targetProxy = CC4DAD031999D8EC001A4CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4DACF91999D8EC001A4CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4DACFA1999D8EC001A4CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4DAD0A1999D8EC001A4CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4DAD0B1999D8EC001A4CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4DAD0D1999D8EC001A4CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftSQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4DAD0E1999D8EC001A4CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftSQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC4DAD101999D8EC001A4CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftSQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSQLite.app/SwiftSQLite";
+			};
+			name = Debug;
+		};
+		CC4DAD111999D8EC001A4CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftSQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSQLite.app/SwiftSQLite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4DACEB1999D8EC001A4CBE /* Build configuration list for PBXProject "SwiftSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4DAD0A1999D8EC001A4CBE /* Debug */,
+				CC4DAD0B1999D8EC001A4CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4DAD0C1999D8EC001A4CBE /* Build configuration list for PBXNativeTarget "SwiftSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4DAD0D1999D8EC001A4CBE /* Debug */,
+				CC4DAD0E1999D8EC001A4CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4DAD0F1999D8EC001A4CBE /* Build configuration list for PBXNativeTarget "SwiftSQLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4DAD101999D8EC001A4CBE /* Debug */,
+				CC4DAD111999D8EC001A4CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4DACE81999D8EC001A4CBE /* Project object */;
+}
