@@ -12,6 +12,12 @@
 		CC4DACFB1999D8EC001A4CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4DACF91999D8EC001A4CBE /* Main.storyboard */; };
 		CC4DACFD1999D8EC001A4CBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4DACFC1999D8EC001A4CBE /* Images.xcassets */; };
 		CC4DAD091999D8EC001A4CBE /* SwiftSQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD081999D8EC001A4CBE /* SwiftSQLiteTests.swift */; };
+		CC4DAD131999D9D7001A4CBE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4DAD121999D9D7001A4CBE /* libsqlite3.0.dylib */; };
+		CC4DAD221999DBBB001A4CBE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD181999DBBB001A4CBE /* FMDatabase.m */; };
+		CC4DAD231999DBBB001A4CBE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD1A1999DBBB001A4CBE /* FMDatabaseAdditions.m */; };
+		CC4DAD241999DBBB001A4CBE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD1C1999DBBB001A4CBE /* FMDatabasePool.m */; };
+		CC4DAD251999DBBB001A4CBE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD1E1999DBBB001A4CBE /* FMDatabaseQueue.m */; };
+		CC4DAD261999DBBB001A4CBE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAD211999DBBB001A4CBE /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,19 @@
 		CC4DAD021999D8EC001A4CBE /* SwiftSQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4DAD071999D8EC001A4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4DAD081999D8EC001A4CBE /* SwiftSQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSQLiteTests.swift; sourceTree = "<group>"; };
+		CC4DAD121999D9D7001A4CBE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CC4DAD141999DA0F001A4CBE /* SwiftSQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC4DAD171999DBBB001A4CBE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CC4DAD181999DBBB001A4CBE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CC4DAD191999DBBB001A4CBE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CC4DAD1A1999DBBB001A4CBE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CC4DAD1B1999DBBB001A4CBE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CC4DAD1C1999DBBB001A4CBE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CC4DAD1D1999DBBB001A4CBE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CC4DAD1E1999DBBB001A4CBE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CC4DAD1F1999DBBB001A4CBE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CC4DAD201999DBBB001A4CBE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CC4DAD211999DBBB001A4CBE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4DAD131999D9D7001A4CBE /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +77,8 @@
 		CC4DACE71999D8EC001A4CBE = {
 			isa = PBXGroup;
 			children = (
+				CC4DAD151999DBA1001A4CBE /* lib */,
+				CC4DAD121999D9D7001A4CBE /* libsqlite3.0.dylib */,
 				CC4DACF21999D8EC001A4CBE /* SwiftSQLite */,
 				CC4DAD051999D8EC001A4CBE /* SwiftSQLiteTests */,
 				CC4DACF11999D8EC001A4CBE /* Products */,
@@ -80,6 +102,7 @@
 				CC4DACF91999D8EC001A4CBE /* Main.storyboard */,
 				CC4DACFC1999D8EC001A4CBE /* Images.xcassets */,
 				CC4DACF31999D8EC001A4CBE /* Supporting Files */,
+				CC4DAD141999DA0F001A4CBE /* SwiftSQLite-Bridging-Header.h */,
 			);
 			path = SwiftSQLite;
 			sourceTree = "<group>";
@@ -107,6 +130,32 @@
 				CC4DAD071999D8EC001A4CBE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4DAD151999DBA1001A4CBE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DAD161999DBBB001A4CBE /* fmdb */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		CC4DAD161999DBBB001A4CBE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DAD171999DBBB001A4CBE /* FMDatabase.h */,
+				CC4DAD181999DBBB001A4CBE /* FMDatabase.m */,
+				CC4DAD191999DBBB001A4CBE /* FMDatabaseAdditions.h */,
+				CC4DAD1A1999DBBB001A4CBE /* FMDatabaseAdditions.m */,
+				CC4DAD1B1999DBBB001A4CBE /* FMDatabasePool.h */,
+				CC4DAD1C1999DBBB001A4CBE /* FMDatabasePool.m */,
+				CC4DAD1D1999DBBB001A4CBE /* FMDatabaseQueue.h */,
+				CC4DAD1E1999DBBB001A4CBE /* FMDatabaseQueue.m */,
+				CC4DAD1F1999DBBB001A4CBE /* FMDB.h */,
+				CC4DAD201999DBBB001A4CBE /* FMResultSet.h */,
+				CC4DAD211999DBBB001A4CBE /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +257,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4DAD221999DBBB001A4CBE /* FMDatabase.m in Sources */,
 				CC4DACF81999D8EC001A4CBE /* ViewController.swift in Sources */,
+				CC4DAD261999DBBB001A4CBE /* FMResultSet.m in Sources */,
+				CC4DAD241999DBBB001A4CBE /* FMDatabasePool.m in Sources */,
 				CC4DACF61999D8EC001A4CBE /* AppDelegate.swift in Sources */,
+				CC4DAD231999DBBB001A4CBE /* FMDatabaseAdditions.m in Sources */,
+				CC4DAD251999DBBB001A4CBE /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +384,7 @@
 				INFOPLIST_FILE = SwiftSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/SwiftSQLite-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -341,6 +396,7 @@
 				INFOPLIST_FILE = SwiftSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/SwiftSQLite-Bridging-Header.h";
 			};
 			name = Release;
 		};
